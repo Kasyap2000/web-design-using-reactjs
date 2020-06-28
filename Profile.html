@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      Profile
+    </title>
+    <meta charset="utf-8">
+    <meta name="viewport" , content="width=device-width,initial-scale=1.0">
+    <style>
+        .para{
+    background-color: #dddddd;
+    color:green;
+}
+.first,.second,.third,.fourth{
+    border:3px black solid;
+    width:400px;
+    text-align: center;
+    margin:2px;
+}
+img{
+    width:300px;
+    height:300px;
+    padding:10px;
+}
+.parent{
+    display:flex;
+    /* flex-direction: row-reverse; */
+}
+@media screen and (max-width:425px){
+    .parent{
+        flex-direction: column;
+    }
+    .first{
+        background-color: #c45e45;
+    }
+}
+@media screen and (min-width:426px) and(max-width:768px){
+    .parent{
+        flex-direction:row-reverse;
+        justify-content: space-between;
+    }
+    .first,.second,.third,.fourth{
+        background-color: #ddd;
+        border-radius: 20px;
+        width:300px;
+    }
+}
+    </style>
+  </head>
+  <body>
+    <div class="parent">
+      <div class="first">
+        <img src="https://picjumbo.com/wp-content/uploads/beautiful-sunset-over-the-foggy-mountains-scenery.jpg">
+        <h1>V Kasyap</h1>
+        <h4>9122345632</h4>
+        <h4>velavarthipatikasyap@gmail.com</h4>
+        <button>View Profile</button>
+      </div>
+      <div class="second">
+        <img src="https://www.humanesociety.org/sites/default/files/styles/1240x698/public/2019/03/rabbit-475261_0.jpg?h=c855054e&itok=lfjXk4-x">
+        <h1>K.Keerthana</h1>
+        <h4>9876543210</h4>
+        <h4>keerthana2001@gmail.com</h4>
+        <button>View Profile</button>
+      </div>
+      <div class="third">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRMFXHIU1Kdl81aZiYI5_eLlIOJaGmP5_hHBA&usqp=CAU">
+        <h1>Vineetha K</h1>
+        <h4>9876543210</h4>
+        <h4>vineetha@gmail.com</h4>
+        <button>View Profile</button>
+      </div>
+      <div class="fourth">
+        <img src="https://images.hdqwalls.com/wallpapers/anime-girl-scenery-4k-oy.jpg">
+        <h1>Saketh VBN</h1>
+        <h4>9876543210</h4>
+        <h4>saketh@gmail.com</h4>
+        <button>View Profile</button>
+      </div>
+    </div>
+  </body>
+</html>

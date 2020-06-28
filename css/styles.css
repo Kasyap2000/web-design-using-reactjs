@@ -1,0 +1,73 @@
+.Parent{
+    border: 1px solid rgb(0, 0, 0);
+    display:flex;
+    background-color: rgb(0,0,0);
+}
+.left{
+    width:400px;
+    margin: 2px;
+    background-color: #e3ecf0;
+}
+.right{
+    width:1000px;
+    margin: 2px;
+    background-color: #e3ecf0;
+}
+.personal{
+    padding-top: 10px;
+    text-align: center;
+    font-style: bold;
+    border: 1px solid black; 
+    margin: 2px;
+}
+.tech{
+    border: 1px solid black;
+    margin: 2px;
+}
+.hobby{
+    border: 1px solid black;
+    margin: 2px;
+}
+.list{
+    list-style-type: square;
+}
+.obj{
+    border: 1px solid black;
+    padding: 10px 0px 15px;
+    margin: 2px;
+    text-align: center;
+}
+.edu .table{
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 25px;
+    border-collapse: collapse;
+}
+.certificates{
+    border: 1px solid black;
+    padding: 20px;
+    margin: 2px;
+}
+.dec{
+    text-align: center;
+    border: 1px solid black;
+    padding-bottom: 20px;
+    margin: 2px;
+}
+.submit{
+    text-align: center;
+}
+h2{
+    text-decoration: underline;
+    text-align: center;
+}
+@media screen and (max-width: 767px) {
+    .Parent {
+      flex-direction: column;
+    }
+    .left,
+    .right {
+      width: 100%;
+      padding: 0;
+    }
+  }
