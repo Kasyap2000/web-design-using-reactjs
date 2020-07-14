@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+        <meta name="viewport" content="width=device-width initial-scale=1.0">
+        <style>
+            .Main{
+                display: flex;
+            }
+            .Images1{
+                padding-left: 250px;
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                width: 1%;
+            }
+            .Images2{
+                display: block;
+                justify-content: center;
+                align-items: center;
+                margin-left: auto;
+                margin-right: auto;
+                width: 40%;
+            }
+            @media screen and (max-width: 767px) {
+            .Parent {
+            flex-direction: column;
+            }
+            .navbar,
+            Main {
+            width: 100%;
+            padding: 0;
+            }
+            }
+        </style>
+    </head>
+    <body>
+        <div class="Parent">
+        <nav class="navbar navbar-expand bg-dark">
+            <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item" class="li">
+                <a class="nav-link" href="Profile.html">Batch Profile</a>
+            </li>
+            <li class="nav-item" class="li">
+                <a class="nav-link" href="Profile1.html">My Profile</a>
+            </li>
+            <li class="nav-item" class="li">
+                <a class="nav-link" href="login.html">Login</a>
+            </li>
+            <li class="nav-item" class="li">
+                <a class="nav-link" href="sample.html">Sample</a>
+            </li>
+        </ul>    
+    </nav>
+    <br>
+    <div class="Main">
+    <div class="Images1 center">
+        <img src="https://techcrunch.com/wp-content/uploads/2015/10/shutterstock_112249904.jpg?w=730&crop=1" alt="Sunrise" width="250px" height="250px"><br><br>
+        <img src="https://images.pexels.com/photos/189349/pexels-photo-189349.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="Sunrise" width="250px" height="250px">
+    </div>
+    <div class="Images2 center">
+        <img src="https://live.staticflickr.com/8308/7844906578_4c2edbb0a2_z.jpg" alt="sunrise" width="250px" height="250px"><br><br>
+        <img src="https://i.pinimg.com/originals/c7/51/ad/c751ad87ee199b97ce6fe5b8606d35d9.jpg" alt="Sunrise" width="250px" height="250px">
+    </div>
+    </div>
+    </div>
+    </body>
+</html>

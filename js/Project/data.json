@@ -1,0 +1,37 @@
+{
+	"details":{
+		"name":"Kasyap",
+		"email":"kasyap@gmail.com",
+		"number":"999999999",
+		"Address":"visakhapatnam"
+	},
+	"careerobjective":{
+		"info":"To become web application developer"
+	},
+	"eduactionalqualification":[
+{
+	"institute":"vignan's institute of information technology",
+	"degree":"B.tech",
+	"passoutyear":"2022",
+	"percentage":"85%"
+},
+{
+	"institute":"kendriya vidhyalaya",
+	"degree":"Intermediate",
+	"passoutyear":"2018",
+	"percentage":"84%"
+},
+{
+	"institute":"kendriya vidhyalaya",
+	"degree":"SSC",
+	"passoutyear":"2016",
+	"percentage":"98%"
+}
+	],
+
+	"techinicalskills":[{
+		"title":"Programming languages",
+		"info":["C,C++,java,R,python,SQL,Php"]
+	}
+]
+}
