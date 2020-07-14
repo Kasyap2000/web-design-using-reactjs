@@ -60,7 +60,7 @@ function loadjson(file) {
   }
   
   function handleStaticClick() {
-    window.open("../static_res.html", "_blank");
+    window.open("./static_res.html", "_blank");
   }
   
   function handleDynamicClick() {
