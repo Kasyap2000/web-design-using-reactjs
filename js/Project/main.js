@@ -116,8 +116,8 @@ function skills(skillinfo){
 	for(i=0;i<skillinfo.length;i++){
 		var title = document.createElement("h4");
 		title.textContent = skillinfo[i].title;
-        child2.appendChild(title);
-
+		child2.appendChild(title);
+		
         var skillul = document.createElement("ul");
         var skillli = document.createElement("li");
         skillli.textContent=skillinfo[i].info;
